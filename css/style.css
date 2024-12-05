@@ -20,4 +20,5 @@ canvas {
 }
 
 #collisionCanvas {
+	opacity: 0;
 }
