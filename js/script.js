@@ -90,7 +90,7 @@ let explosions = [];
 class Explosion {
     constructor(x, y, size) {
         this.image = new Image();
-        this.image.src = './../img/boom.png';
+        this.image.src = './img/boom.png';
         this.spriteWidth = 200;
         this.spriteHeight = 179;
         this.size = size;
@@ -98,7 +98,7 @@ class Explosion {
         this.y = y;
         this.frame = 0;
         this.sound = new Audio();
-        this.sound.src = "./../sound/boom.wav";
+        this.sound.src = "./sound/boom.wav";
         this.timeSinceLastFrame = 0;
         this.frameInterval = 200;
         this.markedForDeletion = false;
